@@ -62,7 +62,7 @@ def get_order( count, set_order ,menu ):
       count[menu.index(set_order)]+=1
       print(f"{count[menu.index(set_order)]} order of {set_order} have been added to your meal ")
   else:
-      print("Please Choose Something From The Menu ")
+      print("This order is not on the menu ,Please Choose Something From The Menu")
   set_order = input('>')
 
 get_order( count ,set_order ,menu )
